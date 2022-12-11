@@ -1,345 +1,390 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Sanket's Portfolio</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgb(0, 155, 255)">
+    <meta name="author" content="Sanket Borade">
+    <meta name="description" content="Technical Writer & Full Stack Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Sanket Borade">
+    <meta property="og:url" content="index.html">
+    <meta property="og:description" content="Technical Writer & Full Stack Developer">
+    <meta property="og:image" content="assets/images/profile-pic.html">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@boradesanket13">
+    <meta name="twitter:creator" content="@boradesanket13">
+    <title>Sanket Borade | Full Stack Developer</title>
+    <link rel="apple-touch-icon" sizes="512x512" href="favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&amp;family=Open+Sans:wght@400;600&amp;family=Reenie+Beanie&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.min48b2.css?v=4.0">
+    <script rel=preconnect src="../kit.fontawesome.com/4046ed8542.js" crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162157673-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        gtag('js', new Date());
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
+        gtag('config', 'UA-162157673-1');
+    </script>
 </head>
 
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">Sanket's Portfolio</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/nameBackground.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">I am Sanket Borade</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Computer Science Student,Competative Programmer,Content Writer,Open Source Enthusiast</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+<body>
+    <div class="header">
+        <div class="header__inner">
+            <button class="header__dark-mode-btn blank-button" aria-label="Toggle dark mode" title="Toggle dark mode"
+                onclick="toggleDarkMode()">
+                <i class="fas fa-adjust"></i></button>
+            <a href="mailto:boradesanket13@gmail.com">boradesanket13@gmail.com</a>
+            <div class="header__right">
+                <button class="blank-button link-button" onclick="scrollToSection('about')">About</button>
+                <button class="blank-button link-button" onclick="scrollToSection('projects')">Projects</button>
+                <button class="blank-button link-button" onclick="scrollToSection('blog')">Blogs</button>
+                <button class="blank-button link-button"
+                    onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })">Contact</button>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <!--/ Intro Skew End /-->
 
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="row">
-                  <div class="col-sm-6 col-md-5">
-                    <div class="about-img">
-                      <img src="img/1628962352020w3.jpg" class="img-fluid rounded b-shadow-a" alt="">
+    <div class="landing">
+        <div class="landing__body">
+            <div class="landing__body__text">
+                <h1 class="landing__body__hero"><span class="highlight">Full stack developer</span> and Technical <span
+                        class="highlight">writer</span> based in India,</h1>
+                <p>specialising in <span class="highlight">ideation, designing,</span> and <span class="highlight">technical implementation</span> for
+                <strong>building impactful software projects.</strong></span></p>
+            </div>
+            <img class="svg" alt="developer-img" src="assets/images/dev3661.svg?v=2.0" />
+        </div>
+        <div class="landing__connect">
+            <img id="shine" class="hidden" loading="lazy" class="svg" alt="shine"
+                src="assets/images/shinec619.svg?v=1.0" />
+            <button class="button" onmouseover="document.querySelector('#shine').classList.remove('hidden')"
+                onmouseout="document.querySelector('#shine').classList.add('hidden')"
+                onclick="window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })">
+                Connect With Me
+
+
+            </button>
+        </div>
+    </div>
+
+
+    <div class="about section" data-anchor="about">
+        <img id="header-trigger" loading="lazy" class="svg" alt="developer-img"
+            src="assets/images/travelingc619.svg?v=1.0" />
+        <div>
+            <h1 class="title">All About Me <i class="fas fa-user"></i></h1>
+            <div class="about__about-me">
+                <span class="about__about-me__triangle"></span>
+                <p>Hello! My name is Sanket, a self-taught developer from India.
+                    I am curious about design, technology and Open Source development</p>
+
+                <p>I enjoy creating things for the web. My interest in Software Development started back in school when
+                    I decided to try editing web pages using inspect element — turns out that changing the Design of the
+                    Facebook Homepage taught me the basics of HMTL & CSS.</p>
+
+                <p>I love working on abstract ideas and building impactful projects, with a strong focus on excellent
+                    code design, quality and reliability. I strive to build things users love, with a keen eye for the
+                    way products look and the interactions they offer.</p>
+            </div>
+            <h1 class="title">Find me on <i class="fas fa-globe-americas"></i></h1>
+            <div class="about__where-ive-been">
+                <div class="about__where-ive-been__left-col">
+                    <div class="about__where-ive-been__connector"></div>
+                    <div class="about__where-ive-been__connector"></div>
+                    <a class="about__where-ive-been__square" href="https://www.linkedin.com/in/boradesanket13/"
+                        target="_blank">
+                        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/linkedin.png" />
+                        LinkedIn
+                    </a>
+                    <a class="about__where-ive-been__square about__where-ive-been__square--large" href=""
+                        target="_blank">
+                        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/github.png" />
+                        GitHub
+                    </a>
+                </div>
+                <div class="about__where-ive-been__right-col">
+                    <div class="about__where-ive-been__connector"></div>
+                    <div class="about__where-ive-been__connector"></div>
+                    <a class="about__where-ive-been__square" href="https://www.bt.com/" target="_blank">
+                        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/medium.png" />
+                        Medium
+                    </a>
+                    <a class="about__where-ive-been__square" href="https://www.girlscript.tech/" target="_blank">
+                        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/twitter.png" />
+                        Twitter
+                    </a>
+                </div>
+            </div>
+            <div class="about__interests">
+                <h1 class="title">My Tech stack <i class="fas fa-heart"></i></h1>
+                <div class="about__interests__grid">
+                    <div class="about__interests__grid__interest">
+                        <p>Java</p>
+                        <i class="fas fa-dumbbell"></i>
                     </div>
-                  </div>
-                  <div class="col-sm-6 col-md-7">
-                    <div class="about-info">
-                      <p><span class="title-s">Name: </span> <span>Sanket Borade</span></p>
-                      <p><span class="title-s">Profile: </span> <span>Computer Science Student</span></p>
-                      <p><span class="title-s">Email: </span> <span>boradesanket13@gmail.com</span></p>
+                    <div class="about__interests__grid__interest">
+                        <p>JavaScript</p>
+                        <i class="fas fa-running"></i>
                     </div>
-                  </div>
+                    <div class="about__interests__grid__interest">
+                        <p>ReactJS</p>
+                        <i class="fas fa-hand-paper"></i>
+                    </div>
+                    <div class="about__interests__grid__interest">
+                        <p>NodeJS</p>
+                        <i class="fas fa-record-vinyl"></i>
+                    </div>
+                    <div class="about__interests__grid__interest">
+                        <p>NextJS</p>
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="about__interests__grid__interest">
+                        <p>ExpressJS</p>
+                        <i class="fas fa-pizza-slice"></i>
+                    </div>
+                    <div class="about__interests__grid__interest">
+                        <p>MongoDB</p>
+                        <i class="fas fa-book"></i>
+                    </div>
                 </div>
-                <div class="skill-mf">
-                  <p class="title-s">Skill</p>
-                  <span>C++</span> <span class="pull-right">70%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>Python</span> <span class="pull-right">60%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>Data Sturctures and Algorithms</span> <span class="pull-right">30%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                  <span>Content Writing</span> <span class="pull-right">80%</span>
-                  <div class="progress">
-                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-                      aria-valuemax="100"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      About me
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Competitive Programming and Web Development Enthusiast.
-                  </p>
-                  <p class="lead">
-                    Sophomore year B.Tech.Computer science student in GES-COENGG ,Nashik.
-                  </p>
-                  <p class="lead">
-                    My objective is to be a part of organization where I can grow in terms of knowledge, attitude and skills .
-                    Given a chance to work with you , I assure you of my level best work.
-                  </p>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Projects
-            </h3>
-            <p class="subtitle-a">
-              .
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-monitor"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Telegram Chatbot using Python</h2>
-              <p class="s-description text-center">
-                Telegram chatbot was created using python for ease in the operation for members of a technology related student telegram channel.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><i class="ion-code-working"></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">Web Development</h2>
-              <p class="s-description text-center">
-                Created a portfolio website.
-              </p>
-            </div>
-          </div>
         </div>
     </div>
-  </section>
-  <!--/ Section Services End /-->
 
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/belowProject.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">5</p>
-              <span class="counter-text">Star in C++ HackerRank</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">5</p>
-              <span class="counter-text">Star in Python (HackerRank)</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">
-              <p class="counter">1</p>
-              <span class="counter-text">Star in 30 Days of code (HackerRank)</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <div class="projects section" data-anchor="projects">
+        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/website-optimisationc619.svg?v=1.0" />
+        <h1 class="title">My Projects <i class="fas fa-globe-americas"></i></h1>
+        <div class="projects__grid">
 
-  <!--/ Section Portfolio/skills Star /-->
-  <section id="work" class="portfolio-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Skills
-            </h3>
-            <p class="subtitle-a">
-              C, C++, Python, Basic Data Structures and Algorithm in C++, Git and GitHub, html, CSS, JavaScript
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>  
-      </div>
-    </div>
-  </section>
-
-  
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/overlay-bg.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <p class="lead">
-                      Feel free to connect.
-                    </p>
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span> Nashik, Maharashtra, India</li>
-                      <li><span class="ion-email"></span>boradesanket13@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="socials">
+            <a class="projects__grid__item projects__grid__item--estimaate"
+                href="https://diabetes-predictor.azurewebsites.net/" target="_blank">
+                <!--<img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/"/>-->
+                <p><span class="highlight">Swastha</span></p>
+                <p>
                     <ul>
-                      <li><a href="https://www.linkedin.com/in/boradesanket13/"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://github.com/Sanket1308"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                      <li><a href="https://twitter.com/boradesanket13"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>
-
+                        <li>Developed using <strong>Flask, Kaggle dataset </strong>and<strong> Azure.</strong> </li>
+                        <li>lets the user <strong>determine whether someone has diabetes</strong> by just inputting
+                            certain information such as BMI, glucose level, BP, etc.</li>
                     </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                </p>
+            </a>
+
+
+
+            <a class="projects__grid__item projects__grid__item--mixmello" href="https://clicomm.vercel.app/"
+                target="_blank">
+                <!--<img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/"/>-->
+                <p><span class="highlight">Clicomm</span></p>
+                <p>
+                    <ul>
+                        <li>Developed using <strong>ReactJS, NextJS, and </strong>and<strong> sawolabs.</strong> </li>
+                        <li>User can <strong>attend or create event</strong> to promoting climate awareness. </li>
+                        <li>User can also <strong>post, react and comment </strong> on enviromental articles. </li>
+                    </ul>
+                </p>
+            </a>
+
+
+
+
+
+            <a class="projects__grid__item projects__grid__item--svgsplash" href="https://nexus-six.vercel.app/"
+                target="_blank">
+                <!--<img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/"/>-->
+                <p><span class="highlight">Nexus</span></p>
+                <p>
+                    <ul>
+                        <li>Developed using <strong>ThreeJS </strong>and<strong> JavaScript.</strong> </li>
+                        <li>Get to know the<strong> solar system </strong> the and <strong>Universe</strong></li>
+                    </ul>
+                </p>
+            </a>
+
+
+
+
+            <a class="projects__grid__item projects__grid__item--nmt" href="https://analog-clock-rouge.vercel.app/"
+                target="_blank">
+                <!--<img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/"/>-->
+                <p><span class="highlight">Miss Minute</span></p>
+                <p>
+                    <ul>
+                        <li>Made using <strong>Vanila JavaScript</strong>and<strong> Quotes API.</strong> </li>
+                        <li>Shows <strong>time</strong>at user's location along with a quote. </li>
+                    </ul>
+                </p>
+            </a>
+
+
+
+            <a class="projects__grid__item projects__grid__item--ssc" href="https://quotebuzz.vercel.app/"
+                target="_blank">
+                <!--<img loading="lazy" class="svg" alt="developer-img" src="assets/images/logos/"/>-->
+                <p><span class="highlight">Quotebuzz</span></p>
+                <p>
+                    <ul>
+                        <li>Fetch quotes from <strong>Quotes API </strong>and showcase related images from<strong>
+                                Unsplash API </strong>in background. </li>
+                        <li>User can <strong>User can tweet the quote </strong> with a single click </li>
+                        <li>Has <strong>text-to-speech</strong> functionality.</li>
+                    </ul>
+                </p>
+            </a>
+
+
+            <a class="projects__grid__item projects__grid__item--rcc" href="https://blaze-silk.vercel.app/"
+                target="_blank">
+                <!--
+                <picture class="">
+                    <source srcset="assets/images/logos/rcc-logo.webp" type="image/webp">
+                    <source srcset="assets/images/logos/rcc-logo.png" type="image/png">
+                    <img loading="lazy" alt="rcc-logo-screen" src="assets/images/logos/"/>
+                </picture>
+                -->
+                <p><span class="highlight">Blaze</span></p>
+                <p>
+                    <ul>
+                        <li>Implemented using <strong>Open Weather Map API </strong>and<strong>Unsplash API</strong>
+                        </li>
+                        <li>User's current location weather is displayed on home page. User can also <strong>search
+                                weather </strong> of any place across the globe.</li>
+                        <li>Images of the searched city is displayed in background using <strong> Unsplash API </strong>
+                        </li>
+                    </ul>
+
+                </p>
+            </a>
+
+
+
         </div>
-      </div>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>Sanket</strong>. All Rights Reserved</p>
-              <div class="credits">
-              </div>
+
+    <div class="blog section" data-anchor="blog">
+        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/solving-problemc619.svg?v=1.0" />
+        <h1 class="title">Latest Blogs <i class="fab fa-dev"></i></h1>
+        <div class="blog__content"></div>
+        <a class="blog__see-all-link" href="https://dev.to/boradesanket13" rel="noreferrer" target="_blank">
+            <button class="button">See All<i class="fas fa-external-link-alt"></i></button>
+        </a>
+    </div>
+
+    <div class="contact section" data-anchor="contact">
+        <img loading="lazy" class="svg" alt="developer-img" src="assets/images/connect3661.svg?v=2.0" />
+        <div class="contact__body">
+            <h1 class="title">Get In Touch! Let's build something great together!<i class="fas fa-comments"></i></h1>
+            <p class="">Got a <span class="highlight">project idea</span> or <span class="highlight">vision?</span> 
+                 Let’s talk it through.</p>
+            <p>Or, reach out to talk about <strong>projects</strong>, <strong>community</strong>,
+                <strong>open source</strong>, <strong>web development</strong> or anything
+                <strong>technology</strong>.</p>
+            <div class="contact__body__social">
+                       
+
+                <a style="text-decoration:none" href="https://www.linkedin.com/in/boradesanket13/">LinkedIn &nbsp;</a>
+
+                <a style="text-decoration:none" href="https://github.com/boradesanket13">GitHub &nbsp;</a>
+
+                <a style="text-decoration:none" href="https://twitter.com/boradesanket13">Twitter &nbsp;</a> 
+
+                <a style="text-decoration:none" href="https://www.linkedin.com/in/boradesanket13/">Medium &nbsp;</a>
+
+                <a style="text-decoration:none" href="https://dev.to/boradesanket13/">Dev.to &nbsp;</a>
+
+                <a style="text-decoration:none" href="https://www.getrevue.co/profile/boradesanket13">Newsletter &nbsp;</a>
+
+                <a style="text-decoration:none" href="mailto:boradesanket13@gmail.com">Email </a>
             </div>
-          </div>
         </div>
-      </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </div>
+    
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <script>
+        let isScrollingUp;
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
+        new IntersectionObserver(
+            ([entry]) => {
+                if (entry.isIntersecting) {
+                    if (isScrollingUp) {
+                        document.querySelector('.header').classList.remove('header--minimised');
+                    } else {
+                        document.querySelector('.header').classList.add('header--minimised');
+                    }
+                }
 
+                isScrollingUp = entry.boundingClientRect.y < entry.rootBounds.y;
+            },
+            { root: null, rootMargin: '-100px', threshold: 1 }
+        ).observe(document.querySelector('#header-trigger'));
+    </script>
+
+    <script>
+        window.onbeforeunload = () => { window.scrollTo(0, 0); };
+
+        /** Handle dark mode, both from manual toggle and system preference **/
+
+        const sysDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+        if (sysDarkMode) {
+            toggleDarkMode();
+        }
+
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (
+            () => toggleDarkMode({ sysChange: true })
+        ));
+
+        function toggleDarkMode({ sysChange } = {}) {
+            const body = document.querySelector('body');
+            const toggleButton = document.querySelector('.header__dark-mode-btn');
+            const isDarkMode = body.classList.contains('dark-mode');
+            const sysDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+            if (sysChange && isDarkMode === sysDarkMode) {
+                return;
+            }
+
+            if (!isDarkMode) {
+                new Audio('assets/audio/switch-off.mp3').play();
+                body.classList.add('dark-mode');
+                toggleButton.classList.add('header__dark-mode-btn--reverse');
+            } else {
+                new Audio('assets/audio/switch-on.mp3').play();
+                body.classList.remove('dark-mode');
+                toggleButton.classList.remove('header__dark-mode-btn--reverse');
+            }
+        }
+
+        function scrollToSection(sectionAnchor) {
+            document.querySelector(`[data-anchor='${sectionAnchor}']`).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+    <script>
+        (async () => {
+            const blogPosts = await (await fetch('https://dev.to/api/articles?username=boradesanket13')).json();
+
+            blogPosts.slice(0, 5).forEach(post => {
+                const div = document.createElement('div');
+                const element = (`<a class="blog__post" target="_blank" rel="noreferrer" href="${post.url}"><div class="blog__post__content"><h3>${post.title}</h3><div class="blog__post__details"><div class="blog__post__love">${post.public_reactions_count}<i class="fas fa-heart"></i></div><div class="blog__post__content__tags">${post.tag_list.map(tag => `<span>#${tag}</span>`).join('')}</div></div></div><img src="${post.social_image}" /></a>`);
+
+                div.innerHTML = element;
+
+                document.querySelector('.blog__content').appendChild(div.firstChild);
+            });
+        })()
+    </script>
 </body>
+
 </html>
