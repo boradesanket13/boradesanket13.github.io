@@ -1,0 +1,141 @@
+{
+  "certifications": [
+    {
+      "id": "gcp",
+      "title": "Google Cloud Professional Cloud Architect",
+      "issuer": "Google Cloud"
+    }
+  ],
+  "hackathons": [],
+  "experience": [
+    {
+      "id": "tcs",
+      "role": "Software Engineer",
+      "company": "Tata Consultancy Services",
+      "location": "Mumbai",
+      "start": "2025-05",
+      "end": null,
+      "stack": [
+        "Spring",
+        "Angular",
+        "Ansible",
+        "GitLab",
+        "PL/SQL"
+      ],
+      "highlights": [
+        "Engineered Spring REST APIs powering SBI's EDMS platform, processing 30M+ daily transactions with 99.9%+ uptime across an 8-node production environment",
+        "Built Angular frontend modules integrating 68 REST APIs, implementing reusable components, reactive forms, and centralized API error handling, cutting UI-related bug reports by 20%",
+        "Designed and implemented GitLab CI/CD pipelines for 68 REST APIs across 4 environments, cutting deployment time from 2 hours to 10 minutes",
+        "Automated PR-DR failover using Ansible and centralized Shell-based health checks across 28 nodes, reducing manual intervention time from 1 hour to 3 minutes"
+      ]
+    },
+    {
+      "id": "quantiphi",
+      "role": "Software Development Intern",
+      "company": "Quantiphi Analytics Pvt. Ltd.",
+      "location": "Mumbai",
+      "start": "2024-08",
+      "end": "2025-04",
+      "stack": [
+        "React",
+        "TypeScript",
+        "Redux"
+      ],
+      "highlights": [
+        "Contributed to the frontend of SmartVigil, a video analytics platform enabling real-time monitoring and search for live and recorded CCTV footage",
+        "Built a chat-style search interface for CCTV footage and a video player with timestamp-precise playback, speed adjustment, and frame capture",
+        "Developed the UI of a Supply Chain Analytics website using React, with Redux Toolkit for state management"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "sppu",
+      "school": "Savitribai Phule Pune University",
+      "degree": "Bachelor of Engineering, Computer Science",
+      "start": "2020-05",
+      "end": "2024-05",
+      "score": "8.5 / 10 CGPA"
+    }
+  ],
+  "skills": {
+    "Backend": [
+      "Java",
+      "Spring Framework",
+      "Spring Boot",
+      "REST APIs",
+      "Node.js",
+      "Express.js"
+    ],
+    "Data & Messaging": [
+      "SQL",
+      "MySQL",
+      "MongoDB",
+      "Redis",
+      "Apache Kafka"
+    ],
+    "Cloud & Delivery": [
+      "Docker",
+      "Kubernetes",
+      "GitLab CI/CD",
+      "GitHub Actions",
+      "Ansible",
+      "Google Cloud",
+      "Microsoft Azure"
+    ],
+    "Frontend": [
+      "Angular",
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript"
+    ]
+  },
+  "achievements": [
+    {
+      "id": "gcp",
+      "title": "Certified Google Cloud Professional Cloud Architect"
+    },
+    {
+      "id": "dsa",
+      "title": "Solved 500+ DSA problems across platforms"
+    }
+  ],
+  "projectsFallback": [
+    {
+      "id": "shikshasetu",
+      "name": "ShikshaSetu",
+      "description": "A Learning Management System with a custom CMS and admin dashboard. Real-time notifications, messaging, and collaboration via Socket.io, Redis-backed sessions, Stripe payments, and Cloudinary media pipeline.",
+      "stack": [
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Redis",
+        "Socket.io",
+        "Stripe",
+        "Cloudinary"
+      ],
+      "period": "Jan 2024 \u2013 Jun 2024",
+      "url": null,
+      "githubUrl": null
+    },
+    {
+      "id": "fundseed",
+      "name": "FundSeed",
+      "description": "An Ethereum DeFi crowdfunding app for startups \u2014 create and donate to campaigns in Ether via MetaMask. Solidity smart contracts handle campaign creation, donations, and withdrawals.",
+      "stack": [
+        "Solidity",
+        "Next.js",
+        "TailwindCSS",
+        "Hardhat",
+        "Waffle",
+        "Ethers.js",
+        "MetaMask"
+      ],
+      "period": "Aug 2023 \u2013 May 2024",
+      "url": null,
+      "githubUrl": null
+    }
+  ]
+}

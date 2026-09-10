@@ -1,0 +1,19 @@
+{
+  "name": "Sanket Borade",
+  "role": "Software Engineer",
+  "tagline": "Java backend engineer building reliable, high-throughput systems.",
+  "summary": "Software Engineer focused on Java, Spring, backend systems, REST APIs, SQL, reliability and automation.",
+  "location": "Mumbai, India",
+  "email": "boradesanket13@gmail.com",
+  "phone": "+91 93704 50837",
+  "resumeUrl": "/resume-sanket-borade.pdf",
+  "availableForWork": true,
+  "stats": {
+    "experienceStartDate": "2025-05-08",
+    "dsaSolved": 500,
+    "githubStars": 100,
+    "githubForks": 150,
+    "hashnodeFollowers": 189,
+    "leetcodeUsername": "boradesanket13"
+  }
+}

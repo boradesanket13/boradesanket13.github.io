@@ -1,0 +1,440 @@
+{
+  "profile": {
+    "login": "boradesanket13",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/79108273?v=4",
+    "followers": 93,
+    "following": 49,
+    "publicRepos": 38,
+    "bio": "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications",
+    "url": "https://github.com/boradesanket13",
+    "contributions": null
+  },
+  "repos": [
+    {
+      "id": "414875537",
+      "name": "boradesanket13",
+      "description": "GitHub Profile Readme",
+      "url": "https://github.com/boradesanket13/boradesanket13",
+      "homepageUrl": "",
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "isPinned": false,
+      "updatedAt": "2026-09-06T15:31:57Z"
+    },
+    {
+      "id": "1315704900",
+      "name": "boradesanket13.github.io",
+      "description": null,
+      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "isPinned": false,
+      "updatedAt": "2026-07-29T04:58:18Z"
+    },
+    {
+      "id": "828807260",
+      "name": "google-cloud-associate-cloud-engineer",
+      "description": null,
+      "url": "https://github.com/boradesanket13/google-cloud-associate-cloud-engineer",
+      "homepageUrl": null,
+      "stars": 6,
+      "forks": 1,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2026-05-22T20:59:10Z"
+    },
+    {
+      "id": "543690620",
+      "name": "QuoteBuzz",
+      "description": "Quote Generator",
+      "url": "https://github.com/boradesanket13/QuoteBuzz",
+      "homepageUrl": "https://quotebuzz-boradesanket13.vercel.app/",
+      "stars": 8,
+      "forks": 34,
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "isPinned": false,
+      "updatedAt": "2025-08-22T15:50:19Z"
+    },
+    {
+      "id": "607022419",
+      "name": "DBMS-Cheatsheets",
+      "description": "DBMS MADE EASY: Your ultimate reference sheets for mastering databases.",
+      "url": "https://github.com/boradesanket13/DBMS-Cheatsheets",
+      "homepageUrl": "",
+      "stars": 11,
+      "forks": 3,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2025-06-07T06:09:14Z"
+    },
+    {
+      "id": "497790284",
+      "name": "Diabetes-prediction-webapp",
+      "description": "This diabetes prediction webapp. In this project, a Kaggle database is used to identify whether someone has diabetes based on data such as BMI, glucose level, blood pressure, etc",
+      "url": "https://github.com/boradesanket13/Diabetes-prediction-webapp",
+      "homepageUrl": "https://diabetes-predictor.azurewebsites.net/",
+      "stars": 5,
+      "forks": 5,
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "isPinned": false,
+      "updatedAt": "2025-05-16T02:49:02Z"
+    },
+    {
+      "id": "857377700",
+      "name": "MERN-shikshasetu",
+      "description": null,
+      "url": "https://github.com/boradesanket13/MERN-shikshasetu",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2025-02-18T04:19:40Z"
+    },
+    {
+      "id": "479322010",
+      "name": "Blaze",
+      "description": "Weather application with geolocation using OpenWeatherAPI and RestCountries API",
+      "url": "https://github.com/boradesanket13/Blaze",
+      "homepageUrl": "https://blaze-silk.vercel.app/",
+      "stars": 16,
+      "forks": 44,
+      "primaryLanguage": "CSS",
+      "languages": [
+        "CSS"
+      ],
+      "isPinned": false,
+      "updatedAt": "2025-01-09T19:59:12Z"
+    },
+    {
+      "id": "419040408",
+      "name": "miss-minute",
+      "description": "Howdy!",
+      "url": "https://github.com/boradesanket13/miss-minute",
+      "homepageUrl": "https://miss-minute.vercel.app/",
+      "stars": 12,
+      "forks": 32,
+      "primaryLanguage": "CSS",
+      "languages": [
+        "CSS"
+      ],
+      "isPinned": false,
+      "updatedAt": "2025-01-09T19:59:04Z"
+    },
+    {
+      "id": "834388132",
+      "name": "GCP-sales-data-dashboard",
+      "description": null,
+      "url": "https://github.com/boradesanket13/GCP-sales-data-dashboard",
+      "homepageUrl": null,
+      "stars": 2,
+      "forks": 0,
+      "primaryLanguage": "Python",
+      "languages": [
+        "Python"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-12-05T08:02:04Z"
+    },
+    {
+      "id": "834387170",
+      "name": "AWS-web-hosting-platform",
+      "description": null,
+      "url": "https://github.com/boradesanket13/AWS-web-hosting-platform",
+      "homepageUrl": null,
+      "stars": 2,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-12-05T07:50:43Z"
+    },
+    {
+      "id": "817252289",
+      "name": "MERN-food-ordering-app-backend",
+      "description": null,
+      "url": "https://github.com/boradesanket13/MERN-food-ordering-app-backend",
+      "homepageUrl": "https://mern-food-ordering-app-frontend-uze7.onrender.com",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-12-05T07:48:58Z"
+    },
+    {
+      "id": "809082685",
+      "name": "Blockchain-FundSeed",
+      "description": "Demo Video Link:",
+      "url": "https://github.com/boradesanket13/Blockchain-FundSeed",
+      "homepageUrl": "https://github.com/boradesanket13/FundSeed?tab=readme-ov-file#-video",
+      "stars": 1,
+      "forks": 1,
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-12-05T07:48:31Z"
+    },
+    {
+      "id": "892926985",
+      "name": "Rox-Mart",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Rox-Mart",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-11-23T04:21:01Z"
+    },
+    {
+      "id": "606023170",
+      "name": "Job-Portal",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Job-Portal",
+      "homepageUrl": null,
+      "stars": 3,
+      "forks": 0,
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-09-22T02:07:22Z"
+    },
+    {
+      "id": "615219310",
+      "name": "mentalHealthCarePortal",
+      "description": null,
+      "url": "https://github.com/boradesanket13/mentalHealthCarePortal",
+      "homepageUrl": "",
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-26T10:07:18Z"
+    },
+    {
+      "id": "618542977",
+      "name": "aura",
+      "description": null,
+      "url": "https://github.com/boradesanket13/aura",
+      "homepageUrl": null,
+      "stars": 3,
+      "forks": 0,
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:03:14Z"
+    },
+    {
+      "id": "651802004",
+      "name": "clicomm",
+      "description": "https://clicomm.vercel.app/",
+      "url": "https://github.com/boradesanket13/clicomm",
+      "homepageUrl": "",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "JavaScript",
+      "languages": [
+        "JavaScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:03:07Z"
+    },
+    {
+      "id": "809438718",
+      "name": "learn_x",
+      "description": null,
+      "url": "https://github.com/boradesanket13/learn_x",
+      "homepageUrl": null,
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:02:49Z"
+    },
+    {
+      "id": "811944290",
+      "name": "loop",
+      "description": null,
+      "url": "https://github.com/boradesanket13/loop",
+      "homepageUrl": "https://loop-boradesanket13.vercel.app/",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:02:47Z"
+    },
+    {
+      "id": "817262957",
+      "name": "mern-food-ordering-app-frontend",
+      "description": null,
+      "url": "https://github.com/boradesanket13/mern-food-ordering-app-frontend",
+      "homepageUrl": "https://mern-food-ordering-app-frontend-uze7.onrender.com",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:02:42Z"
+    },
+    {
+      "id": "576876775",
+      "name": "nexus",
+      "description": null,
+      "url": "https://github.com/boradesanket13/nexus",
+      "homepageUrl": "https://nexus-mauve.vercel.app",
+      "stars": 2,
+      "forks": 2,
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:01:39Z"
+    },
+    {
+      "id": "583536826",
+      "name": "Swastha",
+      "description": "This diabetes prediction webapp. In this project, a Kaggle database is used to identify whether someone has diabetes based on data such as BMI, glucose level, blood pressure, etc",
+      "url": "https://github.com/boradesanket13/Swastha",
+      "homepageUrl": "",
+      "stars": 1,
+      "forks": 0,
+      "primaryLanguage": "HTML",
+      "languages": [
+        "HTML"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:01:36Z"
+    },
+    {
+      "id": "397168481",
+      "name": "Numericon",
+      "description": "Browser extension and website for Calculator",
+      "url": "https://github.com/boradesanket13/Numericon",
+      "homepageUrl": "https://calculator-sanket1308.vercel.app",
+      "stars": 18,
+      "forks": 46,
+      "primaryLanguage": "CSS",
+      "languages": [
+        "CSS"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-08-21T07:01:17Z"
+    },
+    {
+      "id": "817120718",
+      "name": "Pixel",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Pixel",
+      "homepageUrl": "https://pixel-alpha-ten.vercel.app",
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-07-05T05:57:52Z"
+    },
+    {
+      "id": "560337205",
+      "name": "Company-Hiring-Portals",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Company-Hiring-Portals",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2024-06-02T04:46:43Z"
+    },
+    {
+      "id": "785193829",
+      "name": "Deep-Learning-Based-Chat-Bot",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Deep-Learning-Based-Chat-Bot",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "Jupyter Notebook",
+      "languages": [
+        "Jupyter Notebook"
+      ],
+      "isPinned": false,
+      "updatedAt": "2024-04-11T12:15:53Z"
+    },
+    {
+      "id": "571886083",
+      "name": "Job-and-Scholarship-Updates",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Job-and-Scholarship-Updates",
+      "homepageUrl": null,
+      "stars": 2,
+      "forks": 0,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2023-06-21T18:47:53Z"
+    },
+    {
+      "id": "522289349",
+      "name": "Free-Hosting-providers",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Free-Hosting-providers",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2022-08-07T18:12:33Z"
+    }
+  ],
+  "source": "all"
+}

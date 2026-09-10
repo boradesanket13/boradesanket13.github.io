@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 250 250 249;
+  --bg-elevated: 255 255 255;
+  --fg: 20 23 21;
+  --fg-dim: 91 101 95;
+  --border: 225 229 226;
+  --accent: 13 148 91;
+  --accent-soft: 225 246 236;
+}
+
+.dark {
+  --bg: 10 12 11;
+  --bg-elevated: 17 21 19;
+  --fg: 235 238 235;
+  --fg-dim: 155 164 157;
+  --border: 39 46 42;
+  --accent: 45 212 145;
+  --accent-soft: 19 54 40;
+}
+
+html { scroll-behavior: smooth; }
+body { background: rgb(var(--bg)); color: rgb(var(--fg)); }
+::selection { background: rgb(var(--accent) / .25); color: rgb(var(--fg)); }
+*:focus-visible { outline: 2px solid rgb(var(--accent)); outline-offset: 3px; }
+.text-fg-dim { color: rgb(var(--fg-dim)); }
+.text-fg { color: rgb(var(--fg)); }
+.bg-bg { background-color: rgb(var(--bg)); }
+.bg-elevated { background-color: rgb(var(--bg-elevated)); }
+.border-hairline { border-color: rgb(var(--border)); }
+.text-accent { color: rgb(var(--accent)); }
+.bg-accent { background-color: rgb(var(--accent)); }
+.text-ink-950 { color: rgb(var(--bg)); }
+
+@font-face {
+  font-family: "Eyesome Script";
+  src: url("/fonts/EyesomeScript.woff2") format("woff2"), url("/fonts/EyesomeScript.otf") format("opentype");
+  font-display: swap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
