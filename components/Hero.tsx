@@ -18,7 +18,8 @@ export function Hero() {
               <span className="h-px w-8 bg-accent" /> Software Engineer · Java Backend
             </motion.div>
 
-            <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, delay: 0.08 }} className="mt-6 max-w-4xl font-display text-5xl font-semibold tracking-tight sm:text-7xl">
+
+            <motion.h1 initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, delay: 0.08 }} className="eyesome-script mt-6 text-6xl tracking-wide sm:text-8xl">
               Sanket Borade
             </motion.h1>
 

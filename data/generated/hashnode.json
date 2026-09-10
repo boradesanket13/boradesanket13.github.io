@@ -1,0 +1,65 @@
+{
+  "followers": null,
+  "posts": [
+    {
+      "id": "https://boradesanket13.hashnode.dev/automation-using-github-action-to-add-blogs-to-github-profile",
+      "title": "Automation using GitHub Action to add Blogs to GitHub Profile",
+      "brief": "Many years ago, a wise man once told me, \"Why spend 5 minutes doing something when you could spend 5 hours failing to automate it?\" One of the secrets to pro...",
+      "slug": "automation-using-github-action-to-add-blogs-to-github-profile",
+      "url": "https://boradesanket13.hashnode.dev/automation-using-github-action-to-add-blogs-to-github-profile",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723649939389/37bcbfa1-7df2-4983-8c75-99cc5dceda97.png",
+      "publishedAt": "2024-08-31T18:30:26.000Z",
+      "readTimeMinutes": 4
+    },
+    {
+      "id": "https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0",
+      "title": "Easiest way to deploy your website using Microsoft Azure App Services",
+      "brief": "Hosting the website and controlling it in real time can be overwhelming to new developers. In this blog, you’ll learn how to deploy your website using Azure....",
+      "slug": "easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0",
+      "url": "https://boradesanket13.hashnode.dev/easiest-way-to-deploy-your-website-using-microsoft-azure-app-services-d074d8ffc7c0",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723303977498/8a95a199-92d0-4124-93b8-77e190d6531b.png",
+      "publishedAt": "2024-08-10T18:10:54.000Z",
+      "readTimeMinutes": 5
+    },
+    {
+      "id": "https://boradesanket13.hashnode.dev/repositories-to-master-reactjs",
+      "title": "Repositories to Master ReactJS",
+      "brief": "About React JS React is a popular frontend UI framework that is used in over 50 million projects each month. React, which is backed by Facebook, has dominate...",
+      "slug": "repositories-to-master-reactjs",
+      "url": "https://boradesanket13.hashnode.dev/repositories-to-master-reactjs",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723303922430/fdde6dcf-52e6-4db7-97bb-002b8877ce6b.png",
+      "publishedAt": "2024-08-10T18:09:35.000Z",
+      "readTimeMinutes": 6
+    },
+    {
+      "id": "https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad",
+      "title": "How to use action verbs to make your resume more impactful",
+      "brief": "We can all agree that your CV is one of the most crucial tools in your career toolkit, whether you’re applying for a full-time work soon, a seasonal position...",
+      "slug": "how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad",
+      "url": "https://boradesanket13.hashnode.dev/how-to-use-action-verbs-to-make-your-resume-more-impactful-7e535f6f60ad",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723304001583/b9c2181e-beec-40c2-bd23-ceda675637b5.jpeg",
+      "publishedAt": "2024-08-10T18:07:56.000Z",
+      "readTimeMinutes": 4
+    },
+    {
+      "id": "https://boradesanket13.hashnode.dev/web3-power-players-the-top-daos-and-communities-for-learning-and-engaging-with-web3-b6c7d64e6249",
+      "title": "Web3 Power Players: The Top DAOs and Communities for Learning and Engaging with Web3",
+      "brief": "Web3 or the third generation of the World Wide Web, is characterized by the use of decentralized technologies such as blockchain and peer-to-peer networking....",
+      "slug": "web3-power-players-the-top-daos-and-communities-for-learning-and-engaging-with-web3-b6c7d64e6249",
+      "url": "https://boradesanket13.hashnode.dev/web3-power-players-the-top-daos-and-communities-for-learning-and-engaging-with-web3-b6c7d64e6249",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723303951757/e0f2093c-2a64-403c-999f-f4b799c77eed.png",
+      "publishedAt": "2024-08-10T18:06:58.000Z",
+      "readTimeMinutes": 5
+    },
+    {
+      "id": "https://boradesanket13.hashnode.dev/top-websites-to-find-hackathons-dc093f864b3e",
+      "title": "Top websites to find Hackathons",
+      "brief": "What if I tell you can implement your learning and build solution to a real-world problem along with developers from across the world? Amazing, right? On top...",
+      "slug": "top-websites-to-find-hackathons-dc093f864b3e",
+      "url": "https://boradesanket13.hashnode.dev/top-websites-to-find-hackathons-dc093f864b3e",
+      "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1723304019332/9735d9d4-1813-4dc0-ba47-ff02a5f2f95e.gif",
+      "publishedAt": "2024-08-10T18:05:35.000Z",
+      "readTimeMinutes": 4
+    }
+  ]
+}

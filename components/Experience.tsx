@@ -1,39 +1,144 @@
+import Image from "next/image";
 import resumeData from "@/data/resume.json";
 import { RevealOnScroll } from "./RevealOnScroll";
-import { formatMonthYear } from "@/lib/utils";
+
+const companyLinks: Record<string, string> = {
+  "Tata Consultancy Services": "https://www.tcs.com/",
+  "Quantiphi Analytics Pvt. Ltd.": "https://quantiphi.com/",
+};
+
+const companies = [
+  {
+    id: "tcs",
+    name: "Tata Consultancy Services",
+    lightLogo: "/companies/tcs-black.png",
+    darkLogo: "/companies/tcs-white.png",
+    width: 280,
+    height: 100,
+  },
+  {
+    id: "quantiphi",
+    name: "Quantiphi Analytics Pvt. Ltd.",
+    lightLogo: "/companies/quantiphi-dark.svg",
+    darkLogo: "/companies/quantiphi-light.png",
+    width: 300,
+    height: 120,
+  },
+];
 
 export function Experience() {
   return (
-    <section id="experience" className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
-      <SectionHeading eyebrow="01 / EXPERIENCE" title="Production experience" />
-      <div className="mt-12 space-y-12">
-        {resumeData.experience.map((job, index) => (
-          <RevealOnScroll key={job.id} delay={index * 0.05}>
-            <article className="grid gap-6 lg:grid-cols-[190px_1fr]">
-              <div className="font-mono text-xs leading-6 text-fg-dim">
-                {formatMonthYear(job.start)} — {formatMonthYear(job.end)}<br />{job.location}
-              </div>
-              <div className="border-l border-hairline pl-6 lg:pl-8">
-                <h3 className="font-display text-2xl font-semibold tracking-tight">{job.role}</h3>
-                <p className="mt-1 text-sm font-medium text-accent">{job.company}</p>
-                {job.id === "tcs" && <p className="mt-5 max-w-3xl text-sm leading-7 text-fg-dim"><span className="text-fg">SBI Enterprise Document Management System</span> — backend and production engineering for a high-throughput enterprise platform.</p>}
-                <div className="mt-5 flex flex-wrap gap-2">
-                  {job.stack.map((item) => <span key={item} className="rounded-md bg-elevated px-2.5 py-1 font-mono text-[11px] text-fg-dim">{item}</span>)}
-                </div>
-                <ul className="mt-6 space-y-3">
-                  {job.highlights.map((highlight) => (
-                    <li key={highlight} className="flex gap-3 text-sm leading-7 text-fg-dim"><span className="mt-3 h-1.5 w-1.5 shrink-0 rounded-full bg-accent" /><span>{highlight}</span></li>
-                  ))}
-                </ul>
-              </div>
-            </article>
-          </RevealOnScroll>
-        ))}
+    <section
+      id="experience"
+      className="border-y border-hairline bg-elevated/30"
+    >
+      <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
+        <SectionHeading eyebrow="01 / EXPERIENCE" title="Experience" />
+
+        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+          {companies.map((company, index) => {
+            // Only render companies that exist in resume.json
+            const exists = resumeData.experience.some(
+              (job) => job.company === company.name
+            );
+
+            if (!exists) return null;
+
+            return (
+              <RevealOnScroll key={company.id} delay={index * 0.06}>
+                <a
+                  href={companyLinks[company.name]}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`View ${company.name}`}
+                  className="
+                    group
+                    flex
+                    h-72
+                    items-center
+                    justify-center
+                    rounded-2xl
+                    border
+                    border-hairline
+                    bg-bg
+                    px-10
+                    transition-all
+                    duration-300
+                    hover:-translate-y-1
+                    hover:border-accent/50
+                  "
+                >
+                  {/* Light mode */}
+                  <Image
+                    src={company.lightLogo}
+                    alt={company.name}
+                    width={company.width}
+                    height={company.height}
+                    priority
+                    className="
+                      block
+                      h-auto
+                      max-h-32
+                      w-auto
+                      max-w-[280px]
+                      object-contain
+                      opacity-90
+                      transition-transform
+                      duration-300
+                      group-hover:scale-105
+                      group-hover:opacity-100
+                      dark:hidden
+                    "
+                  />
+
+                  {/* Dark mode */}
+                  <Image
+                    src={company.darkLogo}
+                    alt={company.name}
+                    width={company.width}
+                    height={company.height}
+                    priority
+                    className="
+                      hidden
+                      h-auto
+                      max-h-32
+                      w-auto
+                      max-w-[300px]
+                      object-contain
+                      opacity-95
+                      transition-transform
+                      duration-300
+                      group-hover:scale-105
+                      group-hover:opacity-100
+                      dark:block
+                    "
+                  />
+                </a>
+              </RevealOnScroll>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
 }
 
-function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) {
-  return <RevealOnScroll><p className="font-mono text-xs font-medium uppercase tracking-[0.16em] text-accent">{eyebrow}</p><h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">{title}</h2></RevealOnScroll>;
+function SectionHeading({
+  eyebrow,
+  title,
+}: {
+  eyebrow: string;
+  title: string;
+}) {
+  return (
+    <RevealOnScroll>
+      <p className="font-mono text-xs font-medium uppercase tracking-[0.16em] text-accent">
+        {eyebrow}
+      </p>
+
+      <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">
+        {title}
+      </h2>
+    </RevealOnScroll>
+  );
 }

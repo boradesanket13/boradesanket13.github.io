@@ -31,6 +31,7 @@ const PINNED_QUERY = `
             homepageUrl
             stargazerCount
             forkCount
+            isFork
             updatedAt
             primaryLanguage { name }
             languages(first: 5, orderBy: { field: SIZE, direction: DESC }) {
@@ -79,6 +80,7 @@ async function fetchPinnedViaGraphQL(): Promise<{ profile: GithubProfile; repos:
       homepageUrl: n.homepageUrl,
       stars: n.stargazerCount,
       forks: n.forkCount,
+      fork: n.isFork,
       primaryLanguage: n.primaryLanguage?.name ?? null,
       languages: (n.languages?.nodes || []).map((l: any) => l.name),
       isPinned: true,
@@ -149,6 +151,7 @@ async function fetchAllReposViaRest(): Promise<{ profile: GithubProfile; repos: 
         homepageUrl: r.homepage,
         stars: r.stargazers_count,
         forks: r.forks_count,
+        fork: r.fork,
         primaryLanguage: r.language,
         languages: r.language ? [r.language] : [],
         isPinned: false,

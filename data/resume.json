@@ -4,6 +4,11 @@
       "id": "gcp",
       "title": "Google Cloud Professional Cloud Architect",
       "issuer": "Google Cloud"
+    },
+    {
+      "id": "gcp-pcd",
+      "title": "Google Cloud Professional Cloud Developer",
+      "issuer": "Google Cloud"
     }
   ],
   "hackathons": [],
@@ -116,14 +121,14 @@
         "Stripe",
         "Cloudinary"
       ],
-      "period": "Jan 2024 \u2013 Jun 2024",
+      "period": "Jan 2024 – Jun 2024",
       "url": null,
       "githubUrl": null
     },
     {
       "id": "fundseed",
       "name": "FundSeed",
-      "description": "An Ethereum DeFi crowdfunding app for startups \u2014 create and donate to campaigns in Ether via MetaMask. Solidity smart contracts handle campaign creation, donations, and withdrawals.",
+      "description": "An Ethereum DeFi crowdfunding app for startups — create and donate to campaigns in Ether via MetaMask. Solidity smart contracts handle campaign creation, donations, and withdrawals.",
       "stack": [
         "Solidity",
         "Next.js",
@@ -133,7 +138,7 @@
         "Ethers.js",
         "MetaMask"
       ],
-      "period": "Aug 2023 \u2013 May 2024",
+      "period": "Aug 2023 – May 2024",
       "url": null,
       "githubUrl": null
     }

@@ -23,3 +23,19 @@ export interface GithubProfile {
   url: string;
   contributions: number | null;
 }
+
+export interface BlogPost {
+  id: string;
+  title: string;
+  brief: string;
+  slug: string;
+  url: string;
+  coverImage: string | null;
+  publishedAt: string;
+  readTimeMinutes: number;
+}
+
+export interface HashnodeStats {
+  followers: number | null;
+  posts: BlogPost[];
+}

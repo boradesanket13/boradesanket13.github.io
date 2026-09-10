@@ -36,9 +36,17 @@ body { background: rgb(var(--bg)); color: rgb(var(--fg)); }
 .text-ink-950 { color: rgb(var(--bg)); }
 
 @font-face {
-  font-family: "Eyesome Script";
-  src: url("/fonts/EyesomeScript.woff2") format("woff2"), url("/fonts/EyesomeScript.otf") format("opentype");
+  font-family: "EyesomeScript";
+  src: url("/fonts/EyesomeScript.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
   font-display: swap;
+}
+
+.eyesome-script {
+  font-family: "EyesomeScript", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media (prefers-reduced-motion: reduce) {
