@@ -12,7 +12,7 @@ export function Hero() {
   return (
     <section id="top" className="relative overflow-hidden border-b border-hairline">
       <div className="mx-auto max-w-6xl px-6 pb-20 pt-36 sm:pb-24 sm:pt-44">
-        <div className="grid gap-12 lg:grid-cols-[1fr_360px] lg:items-end">
+        <div>
           <div>
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">
               <span className="h-px w-8 bg-accent" /> Software Engineer · Java Backend
@@ -39,23 +39,10 @@ export function Hero() {
             </motion.div>
           </div>
 
-          <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.28 }} className="grid grid-cols-2 gap-px overflow-hidden rounded-xl border border-hairline bg-hairline">
-            {[
-              ["1+", "years experience"],
-              ["30M+", "daily transactions"],
-              ["99.9%", "uptime"],
-              ["68", "REST APIs"],
-            ].map(([value, label]) => (
-              <div key={label} className="bg-elevated px-5 py-5">
-                <div className="font-display text-2xl font-semibold tracking-tight text-fg">{value}</div>
-                <div className="mt-1 font-mono text-[10px] uppercase tracking-wider text-fg-dim">{label}</div>
-              </div>
-            ))}
-          </motion.div>
         </div>
 
         <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-5 font-mono text-xs text-fg-dim">
-          <span>Based in Mumbai</span><span className="text-border">·</span><span>Open to work</span><span className="text-border">·</span><a href={`mailto:${headerData.email}`} className="inline-flex items-center gap-1.5 hover:text-accent"><Mail size={13} /> {headerData.email}</a>
+          <span>Based in Mumbai</span><span className="text-border">·</span><span>Open to Pune</span><span className="text-border">·</span><a href={`mailto:${headerData.email}`} className="inline-flex items-center gap-1.5 hover:text-accent"><Mail size={13} /> {headerData.email}</a>
         </div>
       </div>
     </section>

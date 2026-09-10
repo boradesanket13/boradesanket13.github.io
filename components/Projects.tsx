@@ -7,8 +7,14 @@ import { sitePath } from "@/lib/site";
 const featuredIds = new Set(["shikshasetu", "fundseed"]);
 
 export function Projects() {
-  const repos = githubData.repos.filter((repo) => !repo.fork && repo.name !== "boradesanket13" && repo.name !== "boradesanket13.github.io").slice(0, 4);
-
+const repos = githubData.repos
+  .filter(
+    (repo) =>
+      !repo.forks &&
+      repo.name !== "boradesanket13" &&
+      repo.name !== "boradesanket13.github.io"
+  )
+  .slice(0, 4);
   return (
     <section id="projects" className="border-y border-hairline bg-elevated/30">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-28">
