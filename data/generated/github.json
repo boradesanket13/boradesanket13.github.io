@@ -4,7 +4,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/79108273?v=4",
     "followers": 93,
     "following": 49,
-    "publicRepos": 38,
+    "publicRepos": 37,
     "bio": "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications",
     "url": "https://github.com/boradesanket13",
     "contributions": null
@@ -24,21 +24,6 @@
       ],
       "isPinned": false,
       "updatedAt": "2026-09-06T15:31:57Z"
-    },
-    {
-      "id": "1315704900",
-      "name": "boradesanket13.github.io",
-      "description": null,
-      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
-      "homepageUrl": null,
-      "stars": 0,
-      "forks": 0,
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML"
-      ],
-      "isPinned": false,
-      "updatedAt": "2026-07-29T04:58:18Z"
     },
     {
       "id": "828807260",
