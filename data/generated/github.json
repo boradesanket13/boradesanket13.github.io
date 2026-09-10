@@ -18,12 +18,13 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-09-10T15:42:08Z"
+      "updatedAt": "2026-09-10T23:51:44Z"
     },
     {
       "id": "414875537",
@@ -33,27 +34,13 @@
       "homepageUrl": "",
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "Python",
       "languages": [
         "Python"
       ],
       "isPinned": false,
       "updatedAt": "2026-09-06T15:31:57Z"
-    },
-    {
-      "id": "1315704900",
-      "name": "boradesanket13.github.io",
-      "description": null,
-      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
-      "homepageUrl": null,
-      "stars": 0,
-      "forks": 0,
-      "primaryLanguage": "HTML",
-      "languages": [
-        "HTML"
-      ],
-      "isPinned": false,
-      "updatedAt": "2026-07-29T04:58:18Z"
     },
     {
       "id": "828807260",
@@ -63,6 +50,7 @@
       "homepageUrl": null,
       "stars": 6,
       "forks": 1,
+      "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
@@ -76,6 +64,7 @@
       "homepageUrl": "https://quotebuzz-boradesanket13.vercel.app/",
       "stars": 8,
       "forks": 34,
+      "fork": false,
       "primaryLanguage": "HTML",
       "languages": [
         "HTML"
@@ -91,6 +80,7 @@
       "homepageUrl": "",
       "stars": 11,
       "forks": 3,
+      "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
@@ -104,6 +94,7 @@
       "homepageUrl": "https://diabetes-predictor.azurewebsites.net/",
       "stars": 5,
       "forks": 5,
+      "fork": false,
       "primaryLanguage": "HTML",
       "languages": [
         "HTML"
@@ -119,6 +110,7 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -134,6 +126,7 @@
       "homepageUrl": "https://blaze-silk.vercel.app/",
       "stars": 16,
       "forks": 44,
+      "fork": false,
       "primaryLanguage": "CSS",
       "languages": [
         "CSS"
@@ -149,6 +142,7 @@
       "homepageUrl": "https://miss-minute.vercel.app/",
       "stars": 12,
       "forks": 32,
+      "fork": false,
       "primaryLanguage": "CSS",
       "languages": [
         "CSS"
@@ -164,6 +158,7 @@
       "homepageUrl": null,
       "stars": 2,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "Python",
       "languages": [
         "Python"
@@ -179,6 +174,7 @@
       "homepageUrl": null,
       "stars": 2,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -194,6 +190,7 @@
       "homepageUrl": "https://mern-food-ordering-app-frontend-uze7.onrender.com",
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -209,6 +206,7 @@
       "homepageUrl": "https://github.com/boradesanket13/FundSeed?tab=readme-ov-file#-video",
       "stars": 1,
       "forks": 1,
+      "fork": false,
       "primaryLanguage": "JavaScript",
       "languages": [
         "JavaScript"
@@ -224,6 +222,7 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -239,6 +238,7 @@
       "homepageUrl": null,
       "stars": 3,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "JavaScript",
       "languages": [
         "JavaScript"
@@ -254,6 +254,7 @@
       "homepageUrl": "",
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -269,6 +270,7 @@
       "homepageUrl": null,
       "stars": 3,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "JavaScript",
       "languages": [
         "JavaScript"
@@ -284,6 +286,7 @@
       "homepageUrl": "",
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "JavaScript",
       "languages": [
         "JavaScript"
@@ -299,6 +302,7 @@
       "homepageUrl": null,
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -314,6 +318,7 @@
       "homepageUrl": "https://loop-boradesanket13.vercel.app/",
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -329,6 +334,7 @@
       "homepageUrl": "https://mern-food-ordering-app-frontend-uze7.onrender.com",
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -344,6 +350,7 @@
       "homepageUrl": "https://nexus-mauve.vercel.app",
       "stars": 2,
       "forks": 2,
+      "fork": false,
       "primaryLanguage": "HTML",
       "languages": [
         "HTML"
@@ -359,6 +366,7 @@
       "homepageUrl": "",
       "stars": 1,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "HTML",
       "languages": [
         "HTML"
@@ -374,6 +382,7 @@
       "homepageUrl": "https://calculator-sanket1308.vercel.app",
       "stars": 18,
       "forks": 46,
+      "fork": false,
       "primaryLanguage": "CSS",
       "languages": [
         "CSS"
@@ -389,6 +398,7 @@
       "homepageUrl": "https://pixel-alpha-ten.vercel.app",
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "TypeScript",
       "languages": [
         "TypeScript"
@@ -404,6 +414,7 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
@@ -417,6 +428,7 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": "Jupyter Notebook",
       "languages": [
         "Jupyter Notebook"
@@ -432,6 +444,7 @@
       "homepageUrl": null,
       "stars": 2,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
@@ -445,6 +458,7 @@
       "homepageUrl": null,
       "stars": 0,
       "forks": 0,
+      "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
