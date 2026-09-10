@@ -6,6 +6,7 @@ export interface GithubRepo {
   homepageUrl: string | null;
   stars: number;
   forks: number;
+  fork: boolean;
   primaryLanguage: string | null;
   languages: string[];
   isPinned: boolean;
