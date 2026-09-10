@@ -11,6 +11,21 @@
   },
   "repos": [
     {
+      "id": "1363360896",
+      "name": "boradesanket13.github.io",
+      "description": null,
+      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2026-09-10T15:42:08Z"
+    },
+    {
       "id": "414875537",
       "name": "boradesanket13",
       "description": "GitHub Profile Readme",
