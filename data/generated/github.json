@@ -2,7 +2,7 @@
   "profile": {
     "login": "boradesanket13",
     "avatarUrl": "https://avatars.githubusercontent.com/u/79108273?v=4",
-    "followers": 93,
+    "followers": 94,
     "following": 49,
     "publicRepos": 38,
     "bio": "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications",
@@ -15,7 +15,7 @@
       "name": "boradesanket13.github.io",
       "description": null,
       "url": "https://github.com/boradesanket13/boradesanket13.github.io",
-      "homepageUrl": null,
+      "homepageUrl": "https://boradesanket13.github.io/",
       "stars": 0,
       "forks": 0,
       "fork": false,
@@ -24,7 +24,7 @@
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-09-10T23:51:44Z"
+      "updatedAt": "2026-09-13T02:27:54Z"
     },
     {
       "id": "414875537",
