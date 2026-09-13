@@ -15,7 +15,7 @@ export function Hero() {
         <div>
           <div>
             <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className="flex items-center gap-3 font-mono text-xs uppercase tracking-[0.18em] text-accent">
-              <span className="h-px w-8 bg-accent" /> Software Engineer · Java Backend
+              <span className="h-px w-8 bg-accent" /> Software Engineer 
             </motion.div>
 
 
@@ -24,7 +24,7 @@ export function Hero() {
             </motion.h1>
 
             <motion.p initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, delay: 0.16 }} className="mt-6 max-w-2xl text-lg leading-8 text-fg-dim sm:text-xl">
-              Software Engineer building reliable backend systems with <strong className="font-medium text-fg">Java, Spring and REST APIs</strong>. Production experience with high-throughput enterprise systems, CI/CD, automation and distributed deployments.
+              Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications 
             </motion.p>
 
             <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55, delay: 0.24 }} className="mt-8 flex flex-wrap gap-3">
@@ -43,7 +43,7 @@ export function Hero() {
         </div>
 
         <div className="mt-10 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-hairline pt-5 font-mono text-xs text-fg-dim">
-          <span>Based in Mumbai</span><span className="text-border">·</span><span>Open to Pune</span><span className="text-border">·</span><a href={`mailto:${headerData.email}`} className="inline-flex items-center gap-1.5 hover:text-accent"><Mail size={13} /> {headerData.email}</a>
+          <span>Based in Mumbai, India</span><span className="text-border">·</span><span>Open to Opportunities</span><span className="text-border">·</span><a href={`mailto:${headerData.email}`} className="inline-flex items-center gap-1.5 hover:text-accent"><Mail size={13} /> {headerData.email}</a>
         </div>
       </div>
     </section>

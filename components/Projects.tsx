@@ -15,7 +15,7 @@ export function Projects() {
         <RevealOnScroll>
           <p className="font-mono text-xs font-medium uppercase tracking-[0.16em] text-accent">02 / SELECTED WORK</p>
           <h2 className="mt-3 font-display text-3xl font-semibold tracking-tight sm:text-4xl">Projects & engineering work</h2>
-          <p className="mt-4 max-w-2xl text-sm leading-7 text-fg-dim">A small selection of systems and applications. The emphasis is on engineering decisions, not a long list of demos.</p>
+          <p className="mt-4 max-w-2xl text-sm leading-7 text-fg-dim">Building with purpose to create impactful products that solve real problems.</p>
         </RevealOnScroll>
 
         <div className="mt-10 grid gap-5 lg:grid-cols-2">

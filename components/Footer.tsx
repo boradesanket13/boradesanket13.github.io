@@ -34,10 +34,10 @@ export function Footer() {
               06 / CONTACT
             </p>
             <h2 className="mt-4 max-w-2xl font-display text-3xl font-semibold tracking-tight sm:text-5xl">
-              Open to strong backend engineering opportunities.
+              Open to strong software engineering opportunities.
             </h2>
             <p className="mt-4 max-w-xl text-sm leading-7 text-fg-dim">
-              Java / Spring backend roles, with a preference for Pune. Email is the fastest way to reach me.
+              Email is the fastest way to reach me.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a
@@ -77,8 +77,8 @@ export function Footer() {
         </div>
 
         <div className="mt-16 flex flex-col gap-2 border-t border-hairline pt-5 font-mono text-[10px] uppercase tracking-wider text-fg-dim sm:flex-row sm:items-center sm:justify-between">
-          <span>© {new Date().getFullYear()} Sanket Borade</span>
-          <span>Java · Spring · Backend Engineering</span>
+          <span>Sanket Borade © {new Date().getFullYear()}</span>
+          <span>Turning ideas into reliable software.</span>
         </div>
       </div>
     </footer>

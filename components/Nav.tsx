@@ -33,7 +33,7 @@ export function Nav({ name }: { name: string }) {
     <header className={cn("fixed inset-x-0 top-0 z-50 transition-all duration-300", scrolled ? "border-b border-hairline bg-bg/90 backdrop-blur-xl" : "bg-transparent")}>
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#top" className="font-mono text-sm font-semibold tracking-tight text-fg">
-          SB<span className="text-accent">.</span>
+          Sanket Borade<span className="text-accent">.</span>
         </a>
 
         <ul className="hidden items-center gap-7 md:flex">

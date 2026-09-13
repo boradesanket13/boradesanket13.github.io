@@ -25,19 +25,19 @@ const mono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Sanket Borade — Software Engineer",
   description:
-    "Software Engineer focused on Java, Spring, backend systems, REST APIs, SQL, reliability and automation.",
+    "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications.",
   icons: { icon: "/favicon.svg" },
   openGraph: {
     title: "Sanket Borade — Software Engineer",
     description:
-      "Software Engineer focused on Java, Spring, backend systems, REST APIs, SQL, reliability and automation.",
+      "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications.",
     type: "website"
   },
   twitter: {
     card: "summary",
     title: "Sanket Borade — Software Engineer",
     description:
-      "Software Engineer focused on Java, Spring, backend systems, REST APIs, SQL, reliability and automation."
+      "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications.Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications."
   }
 };
 
