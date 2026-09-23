@@ -5,27 +5,11 @@
     "followers": 95,
     "following": 0,
     "publicRepos": 38,
-    "bio": "Software Engineer focused on building scalable backend systems, distributed services, and reliable cloud-native applications",
+    "bio": "Software Engineer | building products on the web",
     "url": "https://github.com/boradesanket13",
     "contributions": null
   },
   "repos": [
-    {
-      "id": "1363360896",
-      "name": "boradesanket13.github.io",
-      "description": null,
-      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
-      "homepageUrl": "https://boradesanket13.github.io/",
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript"
-      ],
-      "isPinned": false,
-      "updatedAt": "2026-09-23T02:43:32Z"
-    },
     {
       "id": "414875537",
       "name": "boradesanket13",
@@ -40,7 +24,23 @@
         "Python"
       ],
       "isPinned": false,
-      "updatedAt": "2026-09-06T15:31:57Z"
+      "updatedAt": "2026-09-23T14:11:41Z"
+    },
+    {
+      "id": "1363360896",
+      "name": "boradesanket13.github.io",
+      "description": null,
+      "url": "https://github.com/boradesanket13/boradesanket13.github.io",
+      "homepageUrl": "https://boradesanket13.github.io/",
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2026-09-23T10:33:56Z"
     },
     {
       "id": "828807260",
