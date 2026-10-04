@@ -4,7 +4,7 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/79108273?v=4",
     "followers": 95,
     "following": 0,
-    "publicRepos": 38,
+    "publicRepos": 33,
     "bio": "Software Engineer | building products on the web",
     "url": "https://github.com/boradesanket13",
     "contributions": null
@@ -24,7 +24,7 @@
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-10-03T20:27:11Z"
+      "updatedAt": "2026-10-04T03:39:42Z"
     },
     {
       "id": "414875537",
@@ -101,22 +101,6 @@
       ],
       "isPinned": false,
       "updatedAt": "2025-05-16T02:49:02Z"
-    },
-    {
-      "id": "857377700",
-      "name": "MERN-shikshasetu",
-      "description": null,
-      "url": "https://github.com/boradesanket13/MERN-shikshasetu",
-      "homepageUrl": null,
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript"
-      ],
-      "isPinned": false,
-      "updatedAt": "2025-02-18T04:19:40Z"
     },
     {
       "id": "479322010",
@@ -263,22 +247,6 @@
       "updatedAt": "2024-08-26T10:07:18Z"
     },
     {
-      "id": "618542977",
-      "name": "aura",
-      "description": null,
-      "url": "https://github.com/boradesanket13/aura",
-      "homepageUrl": null,
-      "stars": 3,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": "JavaScript",
-      "languages": [
-        "JavaScript"
-      ],
-      "isPinned": false,
-      "updatedAt": "2024-08-21T07:03:14Z"
-    },
-    {
       "id": "651802004",
       "name": "clicomm",
       "description": "https://clicomm.vercel.app/",
@@ -325,22 +293,6 @@
       ],
       "isPinned": false,
       "updatedAt": "2024-08-21T07:02:47Z"
-    },
-    {
-      "id": "817262957",
-      "name": "mern-food-ordering-app-frontend",
-      "description": null,
-      "url": "https://github.com/boradesanket13/mern-food-ordering-app-frontend",
-      "homepageUrl": "https://mern-food-ordering-app-frontend-uze7.onrender.com",
-      "stars": 1,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript"
-      ],
-      "isPinned": false,
-      "updatedAt": "2024-08-21T07:02:42Z"
     },
     {
       "id": "576876775",
@@ -391,22 +343,6 @@
       "updatedAt": "2024-08-21T07:01:17Z"
     },
     {
-      "id": "817120718",
-      "name": "Pixel",
-      "description": null,
-      "url": "https://github.com/boradesanket13/Pixel",
-      "homepageUrl": "https://pixel-alpha-ten.vercel.app",
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": "TypeScript",
-      "languages": [
-        "TypeScript"
-      ],
-      "isPinned": false,
-      "updatedAt": "2024-07-05T05:57:52Z"
-    },
-    {
       "id": "560337205",
       "name": "Company-Hiring-Portals",
       "description": null,
@@ -449,20 +385,6 @@
       "languages": [],
       "isPinned": false,
       "updatedAt": "2023-06-21T18:47:53Z"
-    },
-    {
-      "id": "522289349",
-      "name": "Free-Hosting-providers",
-      "description": null,
-      "url": "https://github.com/boradesanket13/Free-Hosting-providers",
-      "homepageUrl": null,
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": null,
-      "languages": [],
-      "isPinned": false,
-      "updatedAt": "2022-08-07T18:12:33Z"
     }
   ],
   "source": "all"
