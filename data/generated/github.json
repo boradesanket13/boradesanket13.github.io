@@ -11,20 +11,6 @@
   },
   "repos": [
     {
-      "id": "1440124073",
-      "name": "Intro-to-Gen-AI-and-RAG",
-      "description": null,
-      "url": "https://github.com/boradesanket13/Intro-to-Gen-AI-and-RAG",
-      "homepageUrl": null,
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": null,
-      "languages": [],
-      "isPinned": false,
-      "updatedAt": "2026-10-30T18:59:42Z"
-    },
-    {
       "id": "1363360896",
       "name": "boradesanket13.github.io",
       "description": null,
@@ -38,7 +24,21 @@
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-10-30T17:39:10Z"
+      "updatedAt": "2026-10-30T21:50:43Z"
+    },
+    {
+      "id": "1440124073",
+      "name": "Intro-to-Gen-AI-and-RAG",
+      "description": null,
+      "url": "https://github.com/boradesanket13/Intro-to-Gen-AI-and-RAG",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2026-10-30T18:59:42Z"
     },
     {
       "id": "414875537",
