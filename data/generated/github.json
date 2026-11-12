@@ -4,12 +4,26 @@
     "avatarUrl": "https://avatars.githubusercontent.com/u/79108273?v=4",
     "followers": 96,
     "following": 0,
-    "publicRepos": 36,
+    "publicRepos": 37,
     "bio": "Software Engineer | building products on the web",
     "url": "https://github.com/boradesanket13",
     "contributions": null
   },
   "repos": [
+    {
+      "id": "1454843995",
+      "name": "slate",
+      "description": null,
+      "url": "https://github.com/boradesanket13/slate",
+      "homepageUrl": null,
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "primaryLanguage": null,
+      "languages": [],
+      "isPinned": false,
+      "updatedAt": "2026-11-12T04:53:12Z"
+    },
     {
       "id": "1363360896",
       "name": "boradesanket13.github.io",
@@ -24,7 +38,7 @@
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-11-11T14:20:39Z"
+      "updatedAt": "2026-11-12T00:54:58Z"
     },
     {
       "id": "1453878512",
