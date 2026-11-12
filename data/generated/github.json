@@ -11,18 +11,34 @@
   },
   "repos": [
     {
-      "id": "1454843995",
-      "name": "slate",
-      "description": null,
-      "url": "https://github.com/boradesanket13/slate",
-      "homepageUrl": null,
+      "id": "414875537",
+      "name": "boradesanket13",
+      "description": "GitHub Profile Readme",
+      "url": "https://github.com/boradesanket13/boradesanket13",
+      "homepageUrl": "",
       "stars": 0,
       "forks": 0,
       "fork": false,
       "primaryLanguage": null,
       "languages": [],
       "isPinned": false,
-      "updatedAt": "2026-11-12T04:53:12Z"
+      "updatedAt": "2026-11-12T12:56:28Z"
+    },
+    {
+      "id": "1454843995",
+      "name": "slate",
+      "description": null,
+      "url": "https://github.com/boradesanket13/slate",
+      "homepageUrl": "https://slate-one-jade.vercel.app/",
+      "stars": 0,
+      "forks": 0,
+      "fork": false,
+      "primaryLanguage": "TypeScript",
+      "languages": [
+        "TypeScript"
+      ],
+      "isPinned": false,
+      "updatedAt": "2026-11-12T10:12:28Z"
     },
     {
       "id": "1363360896",
@@ -38,7 +54,7 @@
         "TypeScript"
       ],
       "isPinned": false,
-      "updatedAt": "2026-11-12T00:54:58Z"
+      "updatedAt": "2026-11-12T06:12:03Z"
     },
     {
       "id": "1453878512",
@@ -99,20 +115,6 @@
       "languages": [],
       "isPinned": false,
       "updatedAt": "2026-10-30T18:59:42Z"
-    },
-    {
-      "id": "414875537",
-      "name": "boradesanket13",
-      "description": "GitHub Profile Readme",
-      "url": "https://github.com/boradesanket13/boradesanket13",
-      "homepageUrl": "",
-      "stars": 0,
-      "forks": 0,
-      "fork": false,
-      "primaryLanguage": null,
-      "languages": [],
-      "isPinned": false,
-      "updatedAt": "2026-10-18T09:29:14Z"
     },
     {
       "id": "397168481",
